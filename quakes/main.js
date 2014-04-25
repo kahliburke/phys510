@@ -149,7 +149,7 @@ rawData = data;
 		.append('text')
 		.attr('transform', 'translate(-60, 330)rotate(-90)')
 		.attr({'id': 'yLabel', 'text-anchor': 'middle'})
-		.text('Well-being (scale of 0-10)');
+		.text(descriptions[yAxis]);
 
 	// Render points
 	updateScales();
