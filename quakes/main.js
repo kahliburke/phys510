@@ -68,7 +68,7 @@ function getCorrelation(xArray, yArray) {
 
 //d3.csv('data/happySummary.csv', function(data) {
 //
-	var xAxis = 'year', yAxis = 'mag';
+	var xAxis = 'long', yAxis = 'lat';
 	var xAxisOptions = ["lat", "long", "year", "mag", "depth"];
 	var yAxisOptions = ["lat", "long", "year", "mag", "depth"];
 	var descriptions = {
@@ -77,18 +77,8 @@ function getCorrelation(xArray, yArray) {
         "year": "Year",
         "mag": "Magnitude",
         "depth": "Depth"
-    }
-//		"GDP" : "GDP per person (US$)",
-//		"Energy consumption" : "Residential electricity use (kWh per year per person)",
-//		"Equality" : "Equality (based on GINI index) (0 = low equality, 100 = high equality)",
-//		"Work income" : "Hourly pay per person (US$)",
-//		"Food consumption": "Food supply (kCal per day per person)",
-//		"Family" : "Fertility (children per women)",
-//		"Alcohol consumption" : "Alcohol consumption (litres of pure alchohol per year per person)",
-//		"Working hours" : "Average working hours per week per person",
-//		"Military spending" : "Military spending (% of GDP)",
-//		"Health spending" : "Government health spending (% of government spend)"
-//	};
+    };
+
 
 rawData = data;
 
